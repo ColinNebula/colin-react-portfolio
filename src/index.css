@@ -97,13 +97,12 @@ body {
 
 .card{
   flex: 40%;
-  width: 40%;
-  margin: 10px;
+  width: 50%;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .img-class{
   height: 50px;
@@ -243,6 +242,7 @@ a:hover {
 /* header */
 header {
   background: var(--secondary);
+  padding: 20px;
   width: 100%;
 }
 
