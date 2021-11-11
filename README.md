@@ -1,7 +1,6 @@
 # Colin-model-view-controller
 
 This project was bootstrapped with [Create React App]
-
 ## Description
 This Webpage project was created using the react app to display my newly acquired skills as a full stack web Developer. React is a JavaScript User Interface library created by facebook.
 ## User Story
@@ -15,7 +14,7 @@ SO THAT I can assess whether they're a good candidate for an open position
   * [License](#license)
 
 ## Project URL deployed to Github Pages
-
+https://colinnebula.github.io/colin-react-portfolio/
 ## Project Github Repository
 https://github.com/ColinNebula/colin-react-portfolio/tree/main
 ## Project Screenshot
