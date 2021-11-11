@@ -1,12 +1,16 @@
 import React from 'react';
-import coverImage from "../../assets/cover/cover-image.jpg";
+import coverImage from "../../assets/images/c-nebula.jpg";
+import {Image} from "react-bootstrap";
 
 function About() {
 
   return (
       <section className="my-5" >
-          <h1 id="about">Hi!, my name is Colin Nebula?</h1>
-          <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+          <h1 id="about">Hi, my name is Colin Nebula</h1>
+          <h2> Full Stack Web Developer</h2>
+          <div className="image-box">
+          <Image className="cover-image" src={coverImage}/>
+        </div>
           <div className="my-2">
               <p>
               As a self starter who loves being part of a team as well, I bring discipline and 

@@ -13,7 +13,7 @@ const PhotoList = ({ category }) => {
     {
       name: 'Enviro-Dashboard',
       category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'A small group project that provides information about the effects of climate change in the world.',
     },
     {
       name: 'Note Taker',

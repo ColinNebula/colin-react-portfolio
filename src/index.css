@@ -5,9 +5,9 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: #212529;
+  --secondary: #343a40;
+  --tertiary: #495057;
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -36,8 +36,156 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Arial';
 
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--secondary);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#CityPaws-Img-Element {
+  background-image: url("https://img-aws.ehowcdn.com/default/ds-photo/getty/article/117/41/89682611.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#EnviroDashboard-Img-Element {
+  background-image: url("https://www.thoughtco.com/thmb/T7e5vcG6Fb3ti3TH6DD7YGJdA_U=/5250x3862/filters:fill(auto,1)/smoke-and-coal-plant-smokestacks-520518812-584ac8125f9b58a8cd0e87c8.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#WorkDayScheduler-Img-Element {
+  background-image: url("https://media.mktg.workday.com/is/image/workday/workday-hero-image?wid=1600");
+  background-position: top;
+  background-size: cover;
+}
+
+#RegexTutorial-Img-Element {
+  background-image: url("http://3.bp.blogspot.com/-lu_QihkBrBk/UkkoQzNgIDI/AAAAAAAAY6w/Rtd3J2ONi3U/s1600/regex.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#PWABudgetTracker-Img-Element {
+  background-image: url("https://strongtowerwealth.com/wp-content/uploads/2017/03/budget.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#NoteTaker-Img-Element {
+  background-image: url("http://www.missiontolearn.com/wp-content/uploads/2011/06/note-taking.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+#PasswordGenerator-Img-Element {
+  background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
+  background-position: top;
+  background-size: cover;
+}
+
+
+
+.card{
+  flex: 40%;
+  width: 40%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img-class{
+  height: 50px;
+  width: 50px;
+}
+
+.portfolio-div{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-col{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  height: 300px;
+  flex: 10 15;
+}
+
+#contact-section{
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 5px;
+}
+
+
+.card-text:last-child{
+  margin-bottom: 10px;
+  text-align: auto;
+}
+
+.ProjectCard{
+  opacity: .5;
+}
+
+.ProjectCard:hover{
+  opacity: 1;
+}
+
+
+.image-box{
+  display: flex;
+  justify-content: center;
+}
+
+.cover-image{
+  align-self: center;
+  max-height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.my-project{
+  margin-bottom: 0;
+}
+
+#nav-selected{
+  color: white;
+}
+
+.center{
+  text-align: center;
+}
+
+.btn{
+  margin: 10px
+}
+
+.github-link{
+  opacity: .5;
+}
+
+.github-link:hover{
+  opacity: 1;
 }
 
 h1,
@@ -92,7 +240,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--secondary);
 }
 
 header a {
@@ -152,6 +300,7 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  opacity: .5;
 }
 
 nav  li {
@@ -243,7 +392,7 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
+	background: rgba(68, 64, 64, 0.65);
 	bottom: 0;
 	left: 0;
 	overflow: auto;
@@ -291,5 +440,5 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);
 }

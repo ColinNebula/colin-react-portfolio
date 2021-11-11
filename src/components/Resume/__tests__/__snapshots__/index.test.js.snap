@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section
+    class="my-5"
+  >
+    <h1
+      id="resume"
+    >
+      My Web Development Resume
+    </h1>
+    <div
+      class="my-2"
+    >
+      <h2>
+        Colin Nebula
+      </h2>
+      <h3>
+        Full Stack Developer
+      </h3>
+      <p>
+        HTML | CSS | JavaScript | MYSQL | NodeJs | NoSQL | React | MERN | Progressive Web Applications (PWA) | Model-View-Controller (MVC) | IndexedDB
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;

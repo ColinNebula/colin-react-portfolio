@@ -2,73 +2,56 @@
 
 exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
-  <header
-    class="flex-row px-1"
-    data-testid="header"
-  >
-    <h2>
-      <a
-        data-testid="link"
-        href="#about"
+  <header>
+    <nav
+      class="navbar navbar-expand navbar-dark bg-dark"
+    >
+      <div
+        class="container"
       >
-        <span
-          aria-label="camera"
-          role="img"
+        <a
+          class="navbar-brand"
+          href="/"
         >
-           📸
-        </span>
-         Colin Nebula
-      </a>
-    </h2>
-    <nav>
-      <ul
-        class="flex-row"
-      >
-        <li
-          class="mx-2"
+          Colin Nebula 
+        </a>
+        <div
+          class="navbar-collapse collapse"
         >
-          <a
-            href="#about"
+          <div
+            class="me-auto navbar-nav"
           >
-            About me
-          </a>
-        </li>
-        <li
-          class="mx-2"
-        >
-          <span>
-            Contact
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            Commercial
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            Portraits
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            Food
-          </span>
-        </li>
-        <li
-          class="mx-1"
-        >
-          <span>
-            Landscape
-          </span>
-        </li>
-      </ul>
+            <a
+              class="nav-link"
+              role="button"
+              tabindex="0"
+            >
+               Contact 
+            </a>
+            <a
+              class="nav-link"
+              role="button"
+              tabindex="0"
+            >
+               About Me 
+            </a>
+            <a
+              class="nav-link"
+              role="button"
+              tabindex="0"
+            >
+               Portfolio 
+            </a>
+            <a
+              class="nav-link"
+              role="button"
+              tabindex="0"
+            >
+               Resume 
+            </a>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 </DocumentFragment>
