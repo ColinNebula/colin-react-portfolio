@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ColinNebula.github.io/colin-react-portfolio",
   "name": "colin-react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +45,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^12.1.2"
+    "@testing-library/react": "^12.1.2",
+    "gh-pages": "^3.2.3"
   }
 }
