@@ -12,8 +12,9 @@ SO THAT I can assess whether they're a good candidate for an open position
   * [Description](#description)
   * [Installation](#installation)
   * [Author](#author)
+  * [License](#license)
 
-## Project URL deployed to Heroku
+## Project URL deployed to Github Pages
 
 ## Project Github Repository
 https://github.com/ColinNebula/colin-react-portfolio/tree/main
