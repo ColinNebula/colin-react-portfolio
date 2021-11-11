@@ -7,11 +7,8 @@ import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import {Container} from "react-bootstrap";
 
-
+// App
 function App() {
-
-
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [contactSelected, setContactSelected] = useState(false);
   const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);

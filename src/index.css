@@ -27,6 +27,7 @@ body {
   min-height: 100%;
 }
 
+/* body section */
 body {
   margin: 0;
   padding: 0;
@@ -40,6 +41,7 @@ body {
 
 }
 
+/* footer section */
 .footer {
   margin-top: 1rem;
   padding: 1rem;
@@ -50,6 +52,7 @@ body {
   width: 100%;
 }
 
+/* image elements section */
 #CityPaws-Img-Element {
   background-image: url("https://img-aws.ehowcdn.com/default/ds-photo/getty/article/117/41/89682611.jpg");
   background-position: top;
@@ -63,7 +66,7 @@ body {
 }
 
 #WorkDayScheduler-Img-Element {
-  background-image: url("https://media.mktg.workday.com/is/image/workday/workday-hero-image?wid=1600");
+  background-image: url("https://www.coworker.com/mag/wp-content/uploads/2019/04/work-life-balance-PCV77CW.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -113,6 +116,7 @@ body {
   flex-wrap: wrap;
 }
 
+/* card body */
 .card-body{
   display: flex;
   justify-content: center;
@@ -135,10 +139,9 @@ body {
   border-radius: 5px;
 }
 
-
 .card-text:last-child{
   margin-bottom: 10px;
-  text-align: auto;
+  text-align: center;
 }
 
 .ProjectCard{
@@ -149,12 +152,11 @@ body {
   opacity: 1;
 }
 
-
 .image-box{
   display: flex;
   justify-content: center;
 }
-
+/* cover image */
 .cover-image{
   align-self: center;
   max-height: 200px;
@@ -178,6 +180,7 @@ body {
   margin: 10px
 }
 
+/* Github section */
 .github-link{
   opacity: .5;
 }
@@ -237,6 +240,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* header */
 header {
   background: var(--secondary);
   width: 100%;
@@ -246,6 +250,7 @@ header a {
   color: var(--light);
 }
 
+/* button */
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -315,7 +320,7 @@ textarea {
 
 .container {
   width: 85%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -389,7 +394,7 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
-
+/* modal section */
 .modalBackdrop {
 	background: rgba(68, 64, 64, 0.65);
 	bottom: 0;
