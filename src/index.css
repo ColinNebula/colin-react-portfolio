@@ -92,8 +92,6 @@ body {
   background-size: cover;
 }
 
-
-
 .card{
   flex: 40%;
   width: 40%;
@@ -241,6 +239,7 @@ a:hover {
 
 header {
   background: var(--secondary);
+  width: 100%;
 }
 
 header a {
