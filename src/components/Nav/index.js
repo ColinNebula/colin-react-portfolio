@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from 'react';
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 function customNav(props) {
