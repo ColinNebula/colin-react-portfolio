@@ -14,14 +14,5 @@ class Footer extends React.Component
       )
     }
 }
-// const Footer = () => (
-//   <div className="footer">
-//   <h6> Colin Nebula</h6>
-//   <a href="https://github.com/ColinNebula/colin-react-portfolio" class="fa fa-github"> Github</a>
-
-// <a href="#" class="fa fa-linkedin">Linked In</a>
-    
-//   </div>
-// );
 
 export default Footer;

@@ -1,10 +1,17 @@
 import React, {useState} from "react";
 import {Card, Button, Col} from "react-bootstrap";
-// import logo from "../../assets/images/github.svg";
+
 
 function Portfolio(){
 
     const [project] = useState([
+        {
+            name: 'Squid Store',
+            id: 'SquidStore-Img-Element',
+            description: 'JWX, JavaScript, Nodejs, MongoDB, Express, Bcrypt, GraphQL, Stripe',
+            link: 'https://thesquidstore.herokuapp.com/',
+            github:"https://github.com/TPhondeth/the-squid-store"
+        },
         {
             name: 'City Paws',
             id: 'CityPaws-Img-Element',

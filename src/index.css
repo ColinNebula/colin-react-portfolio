@@ -53,6 +53,12 @@ body {
 }
 
 /* image elements section */
+#SquidStore-Img-Element {
+  background-image: url("https://cdn.trinikid.com/528381/uploads/38e5f970-fc24-11eb-b392-4f45852d76ba_800_420.jpeg");
+  background-position: top;
+  background-size: cover;
+}
+
 #CityPaws-Img-Element {
   background-image: url("https://img-aws.ehowcdn.com/default/ds-photo/getty/article/117/41/89682611.jpg");
   background-position: top;
