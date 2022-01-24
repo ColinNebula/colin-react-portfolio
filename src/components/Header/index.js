@@ -1,16 +1,23 @@
 import React from 'react';
+import Navigation from "../Navigation";
 
-class Header extends React.Component
-{
-  render()
-    {
-      return (
-        <div class="jumbotron text-cent">
-        <h1>Colin Nebula</h1>
-        <p>Full Stack Web Developer</p>
-        </div>
-      )
-    }
+function Header(props) {
+    const { currentTab, setCurrentTab } = props;
+
+    return (
+        <header>
+            <div className="name">
+                <h2>Colin Nebula</h2>
+                <p>Full Stack Web Developer</p>
+            </div>
+            <div>
+                <Navigation
+                    currentTab={currentTab}
+                    setCurrentTab={setCurrentTab}
+                ></Navigation>
+            </div>
+        </header>
+    );
 }
 
 export default Header;

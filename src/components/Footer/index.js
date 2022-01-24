@@ -1,18 +1,33 @@
-import React from "react";
-// import 'bootstrap/dis/css/bootstrap.min.css';
-class Footer extends React.Component
-{
-  render()
-    {
-      return (
-        <div class="jumbotron text-cent">
-        <h1>Colin Nebula</h1>
-        <p>Full Stack Web Developer</p>
-        <a href="https://github.com/ColinNebula/colin-react-portfolio" class="fa fa-github"> Github</a>
-        <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin">Linked In</a>
-        </div>
-      )
+import React from 'react';
+import { FaGithub, FaLinkedin, FaYoutube, FaTwitter } from "react-icons/fa";
+
+function Footer() {
+    return (
+            <div className="footer">
+                <footer>
+                        <a href="https://github.com/ColinNebula" target="blank" rel="noopener noreferrer">
+                            <li className="logo">
+                                <FaGithub />
+                            </li>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/" target="blank" rel="noopener noreferrer">
+                            <li className="logo">
+                                <FaLinkedin />
+                            </li>
+                        </a>
+                        <a href="https://www.youtube.com/" target="blank" rel="noopener noreferrer">
+                            <li className="logo">
+                                <FaYoutube />
+                            </li>
+                        </a>
+                        <a href="https://www.twitter.com/PartsmatAutoparts" target="blank" rel="noopener noreferrer">
+                            <li className="logo">
+                                <FaTwitter />
+                            </li>
+                        </a>
+                </footer>
+            </div>
+        );
     }
-}
 
 export default Footer;

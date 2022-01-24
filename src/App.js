@@ -28,6 +28,7 @@ function App() {
         resumeSelected={resumeSelected}
         setResumeSelected={setResumeSelected}></Nav>
     </Container>
+    
       <main>
         <Container>
         {contactSelected ? (
