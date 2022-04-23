@@ -1,4 +1,4 @@
-# Colin-model-view-controller
+# Colin-React Portfolio
 
 This project was bootstrapped with [Create React App]
 ## Description
