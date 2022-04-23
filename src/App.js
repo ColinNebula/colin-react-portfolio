@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import {Container} from "react-bootstrap";
+import BootstrapCarousel from './components/BootstrapCarousel';
 
 // App
 function App() {
@@ -28,6 +29,8 @@ function App() {
         resumeSelected={resumeSelected}
         setResumeSelected={setResumeSelected}></Nav>
     </Container>
+
+    <BootstrapCarousel />
     
       <main>
         <Container>

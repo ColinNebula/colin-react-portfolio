@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -20,11 +20,8 @@ function Footer() {
                                 <FaYoutube />
                             </li>
                         </a>
-                        <a href="https://www.twitter.com/PartsmatAutoparts" target="blank" rel="noopener noreferrer">
-                            <li className="logo">
-                                <FaTwitter />
-                            </li>
-                        </a>
+                    
+                        &copy; 2022 Colin Nebula, Inc.
                 </footer>
             </div>
         );

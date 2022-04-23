@@ -94,13 +94,19 @@ footer {
   background-size: cover;
 }
 
-#NoteTaker-Img-Element {
-  background-image: url("http://www.missiontolearn.com/wp-content/uploads/2011/06/note-taking.jpg");
+#PartsmartAutoParts-Img-Element {
+  background-image: url("https://autodir.ca/datas/google-photo/2872aed4365d15b78f0771b2f9c83ee8-Partsmart-Auto-Parts-Richmond-Hill-ON-Canada-AutoDir.jpg");
   background-position: top;
   background-size: cover;
 }
 
 #PasswordGenerator-Img-Element {
+  background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
+  background-position: top;
+  background-size: cover;
+}
+
+#ShopShop-Img-Element {
   background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
   background-position: top;
   background-size: cover;
@@ -257,6 +263,7 @@ header {
 		#3b3c3d,
 		#afb1b3
 	);
+  
   margin: 5px 0;
   padding: 20px 0;
   width: 100%;
@@ -265,6 +272,17 @@ header {
 
 header a {
   color: var(--light);
+}
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: right;
+  list-style: none;
 }
 
 /* button */

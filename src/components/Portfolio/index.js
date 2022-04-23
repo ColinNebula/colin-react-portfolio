@@ -49,10 +49,10 @@ function Portfolio(){
 
         },
         {
-            name: "Note Taker",
-            id: "NoteTaker-Img-Element",
+            name: "Partsmart auto parts",
+            id: "PartsmartAutoParts-Img-Element",
             description: "JavaScript, HTML, CSS",
-            link:"https://pure-basin-29870.herokuapp.com/ deployed to Heroku",
+            link:"file:///Z:/Directory/projects/partsmart-auto-parts/index.html",
             github:"https://github.com/ColinNebula/colin-note-taker"
         },
         {
@@ -61,6 +61,13 @@ function Portfolio(){
             description: "JavaScript, HTML, CSS",
             link:"https://colinnebula.github.io/C-3-Password-Generator/",
             github:"https://github.com/ColinNebula/C-3-Password-Generator"
+        },
+        {
+            name: "Shop Shop",
+            id: "ShopShop-Img-Element",
+            description: "MERN Stack, JavaScript, HTML, CSS",
+            link:"https://colinnebula.github.io/C-3-Password-Generator/",
+            github:"https://github.com/ColinNebula/shop-shop"
         },
     ])
 
