@@ -52,7 +52,7 @@ function Portfolio(){
             name: "Partsmart auto parts",
             id: "PartsmartAutoParts-Img-Element",
             description: "JavaScript, HTML, CSS",
-            link:"file:///Z:/Directory/projects/partsmart-auto-parts/index.html",
+            link:"https://colinnebula.github.io/partsmart-auto-parts/",
             github:"https://github.com/ColinNebula/colin-note-taker"
         },
         {
