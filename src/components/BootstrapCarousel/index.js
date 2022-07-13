@@ -19,7 +19,7 @@ export default function BootstrapCarousel() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fbelieve.earth%2Fwp-content%2Fuploads%2F2018%2F12%2Fpexels-photo-220201-1024x681.jpeg&sp=1657737928T625dbc2487311bbb9055c604b8b1099d8a748879932e633d84cd8a188389b90e"
+        src="https://wwf.ca/wp-content/uploads/2021/03/Small_WW222125.jpg"
         alt="Second slide"
       />
 
@@ -31,7 +31,7 @@ export default function BootstrapCarousel() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fdonorbox.org%2Fnonprofit-blog%2Fwp-content%2Fuploads%2F2019%2F12%2Fhigh-angle-budget-wooden-blocks-scaled.jpg&sp=1657737504Ta6a215461193544620159832290447fd868f0bd8bcf53cef6eb04da1b0f225a5"
+        src="https://donorbox.org/nonprofit-blog/wp-content/uploads/2019/12/high-angle-budget-wooden-blocks-scaled.jpg"
         alt="Third slide"
       />
   
@@ -43,7 +43,7 @@ export default function BootstrapCarousel() {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.rd.com%2Fwp-content%2Fuploads%2F2020%2F02%2FGettyImages-901412996-scaled-e1650398409723.jpg%3Ffit%3D700%2C1024&sp=1657737728Tba1b708b4202c1636249a219df1087c1336cff7eb9297433c0ccac506cc87d7d"
+        src="https://cioafrica.co/wp-content/uploads/2022/05/Password-Policies.jpg"
         alt="Fourth slide"
       />
       <Carousel.Caption>

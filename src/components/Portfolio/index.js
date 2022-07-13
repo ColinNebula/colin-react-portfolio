@@ -49,7 +49,7 @@ function Portfolio(){
 
         },
         {
-            name: "Partsmart auto parts",
+            name: "Partsmart auto parts Inc.",
             id: "PartsmartAutoParts-Img-Element",
             description: "JavaScript, HTML, CSS",
             link:"https://colinnebula.github.io/partsmart-auto-parts/",
