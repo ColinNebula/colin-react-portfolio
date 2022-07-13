@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/colin-react-portfolio/static/css/main.5ae5acb5.chunk.css",
-    "main.js": "/colin-react-portfolio/static/js/main.09195f2b.chunk.js",
-    "main.js.map": "/colin-react-portfolio/static/js/main.09195f2b.chunk.js.map",
-    "runtime-main.js": "/colin-react-portfolio/static/js/runtime-main.0afe26f4.js",
-    "runtime-main.js.map": "/colin-react-portfolio/static/js/runtime-main.0afe26f4.js.map",
-    "static/js/2.4a91c866.chunk.js": "/colin-react-portfolio/static/js/2.4a91c866.chunk.js",
-    "static/js/2.4a91c866.chunk.js.map": "/colin-react-portfolio/static/js/2.4a91c866.chunk.js.map",
+    "main.css": "/colin-react-portfolio/static/css/main.a84c6e22.css",
+    "main.js": "/colin-react-portfolio/static/js/main.b2f68af9.js",
+    "static/media/c-nebula.jpg": "/colin-react-portfolio/static/media/c-nebula.dade2873e6fd7da3839c.jpg",
     "index.html": "/colin-react-portfolio/index.html",
-    "static/css/main.5ae5acb5.chunk.css.map": "/colin-react-portfolio/static/css/main.5ae5acb5.chunk.css.map",
-    "static/js/2.4a91c866.chunk.js.LICENSE.txt": "/colin-react-portfolio/static/js/2.4a91c866.chunk.js.LICENSE.txt",
-    "static/media/c-nebula.dade2873.jpg": "/colin-react-portfolio/static/media/c-nebula.dade2873.jpg"
+    "main.a84c6e22.css.map": "/colin-react-portfolio/static/css/main.a84c6e22.css.map",
+    "main.b2f68af9.js.map": "/colin-react-portfolio/static/js/main.b2f68af9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0afe26f4.js",
-    "static/js/2.4a91c866.chunk.js",
-    "static/css/main.5ae5acb5.chunk.css",
-    "static/js/main.09195f2b.chunk.js"
+    "static/css/main.a84c6e22.css",
+    "static/js/main.b2f68af9.js"
   ]
 }
