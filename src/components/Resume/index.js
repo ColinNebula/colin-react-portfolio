@@ -14,7 +14,10 @@ function Resume() {
                 </h2>
                 <h4>Full Stack Developer</h4>
                 <p>
-                   HTML | CSS | JavaScript | MYSQL | NodeJs | NoSQL | React | MERN | Progressive Web Applications (PWA) | Model-View-Controller (MVC) | IndexedDB
+                   HTML | CSS | JavaScript | AJAX | Bootstrap | Rest | MYSQL | NodeJs | NoSQL | React | MERN | 
+                   MongoDB | SQL | JQuery | Git | Responsive Design | DOM | Progressive Web Applications (PWA) | 
+                   Node.js | Express.js | Object Relational Mapping(ORM) | React | Redux | Model-View-Controller (MVC) | IndexedDB
+
                 </p>
                 
             </div>
