@@ -1,73 +1,46 @@
 import React, { useState } from 'react';
-import Nav from './components/Nav';
+import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import ContactForm from './components/Contact';
 import Footer from './components/Footer';
-import {Container} from "react-bootstrap";
 import BootstrapCarousel from './components/BootstrapCarousel';
 
 // App
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+  const [currentTab, setCurrentTab] = useState("about");
+  
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+        return <About />;
+      case "portfolio":
+        return <Portfolio />
+      case "resume":
+        return <Resume />;
+      default:
+        return null;
+    }
+  };
 
   return (
     
     <div>
-    <Container>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}></Nav>
-    </Container>
+    <div>
+      
+				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
+        
+			</div>
 
     <BootstrapCarousel />
-    
-      <main>
-        <Container>
-        {contactSelected ? (
-          <>
-            <ContactForm></ContactForm>
-          </>
-        ) : (
-          <></>
-        )}
-        {aboutSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-          <></>
-        )}
-        {portfolioSelected ? (
-          <>
-            <Portfolio></Portfolio>
-          </>
-        ) : (
-          <></>
-        )}
-        {resumeSelected ? (
-          <>
-            <Resume></Resume>
-          </>
-        ) : (
-          <></>
-        )}
-        </Container>
-      </main>
-      <Container>
+  
+      <div>
+      <main>{renderTab()}</main>
+    </div>
+    <div>
       <Footer></Footer>
-      </Container>
-      </div>
+    </div>
+  </div>
 
   );
 }
