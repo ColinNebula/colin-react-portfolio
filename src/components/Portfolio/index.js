@@ -13,24 +13,17 @@ function Portfolio(){
             github:"https://github.com/TPhondeth/the-squid-store"
         },
         {
-            name: 'City Paws',
-            id: 'CityPaws-Img-Element',
-            description: 'HTML, JavaScript, Nodejs, MySQL, Express, Bcrypt, Dotenv, Handlebars',
-            link: 'href="https://cryptic-cliffs-70545.herokuapp.com/home/',
-            github:"https://github.com/project02team05/city-paws"
-        },
-        {
             name: "Enviro Dashboard",
             id: "EnviroDashboard-Img-Element",
             description: "HTML, Bulma, CSS, JavaScript, Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv",
-            link: "https://lrk83-tech-blog.herokuapp.com/",
+            link: "https://theteam33333.github.io/enviro-dashboard/",
             github:"https://theteam33333.github.io/enviro-dashboard/" 
         },
         {
             name: 'Work Day Scheduler',
             id: 'WorkDayScheduler-Img-Element',
             description: 'JavaScript, CSS, HTML, Server Side APIs',
-            link: 'a href="https://colinnebula.github.io/work-day-scheduler/',
+            link: 'https://colinnebula.github.io/work-day-scheduler/',
             github: 'https://github.com/ColinNebula/work-day-scheduler'
         },
         {
@@ -67,6 +60,20 @@ function Portfolio(){
             id: "ShopShop-Img-Element",
             description: "MERN Stack, JavaScript, HTML, CSS",
             link:"https://agile-citadel-05491.herokuapp.com/",
+            github:"https://github.com/ColinNebula/shop-shop"
+        },
+        {
+            name: "Application Registration Form",
+            id: "applicationregistrationform-Img-Element",
+            description: "HTML, CSS",
+            link:"https://colinnebula.github.io/application-registration-page/",
+            github:"https://github.com/ColinNebula/application-registration-page"
+        },
+        {
+            name: "Tribute To B.I.G",
+            id: "TributeToBig-Img-Element",
+            description: "HTML, CSS",
+            link:"https://colinnebula.github.io/tribute-to-big/",
             github:"https://github.com/ColinNebula/shop-shop"
         },
     ])

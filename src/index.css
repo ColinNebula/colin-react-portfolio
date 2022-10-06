@@ -117,31 +117,27 @@ footer {
   background-position: top;
   background-size: cover;
 }
-
-#CityPaws-Img-Element {
-  background-image: url("https://img-aws.ehowcdn.com/default/ds-photo/getty/article/117/41/89682611.jpg");
-  background-position: top;
-  background-size: cover;
-}
-
+/* EnviroDashboard image element */
 #EnviroDashboard-Img-Element {
   background-image: url("https://www.thoughtco.com/thmb/T7e5vcG6Fb3ti3TH6DD7YGJdA_U=/5250x3862/filters:fill(auto,1)/smoke-and-coal-plant-smokestacks-520518812-584ac8125f9b58a8cd0e87c8.jpg");
   background-position: top;
   background-size: cover;
 }
 
+/* WorkDayScheduler image element */
 #WorkDayScheduler-Img-Element {
   background-image: url("https://www.coworker.com/mag/wp-content/uploads/2019/04/work-life-balance-PCV77CW.jpg");
   background-position: top;
   background-size: cover;
 }
-
+/* RegexTutorial image element */
 #RegexTutorial-Img-Element {
   background-image: url("http://3.bp.blogspot.com/-lu_QihkBrBk/UkkoQzNgIDI/AAAAAAAAY6w/Rtd3J2ONi3U/s1600/regex.jpg");
   background-position: top;
   background-size: cover;
 }
 
+/* PWABudgetTracker image element */
 #PWABudgetTracker-Img-Element {
   background-image: url("https://strongtowerwealth.com/wp-content/uploads/2017/03/budget.jpg");
   background-position: top;
@@ -153,15 +149,29 @@ footer {
   background-position: top;
   background-size: cover;
 }
-
+/* PasswordGenerator image element */
 #PasswordGenerator-Img-Element {
   background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
   background-position: top;
   background-size: cover;
 }
 
+/* ShopShop image element */
 #ShopShop-Img-Element {
   background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
+  background-position: top;
+  background-size: cover;
+}
+
+/* ApplicationRegistrationForm image element */
+#ApplicationRegistrationForm-Img-Element {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcache.careers360.mobi%2Fmedia%2Fpresets%2F860X430%2Farticle_images%2F2018%2F05%2F14%2FSAT_Registration.jpeg&f=1&nofb=1&ipt=3a9db784a602d8d000a39296afa8713365e55d12490e26a75c3351450efc609b&ipo=images");
+  background-position: top;
+  background-size: cover;
+}
+
+#TributeToBig-Img-Element {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rollingstone.com%2Fwp-content%2Fuploads%2F2018%2F11%2FNotorious-BIG-on-front-stoop-at-moms-house-in-brooklyn.jpg&f=1&nofb=1&ipt=e379af7c58365db6e4b7318fcc3cda10d1c207d2a95754296e6dd63cc6d5c231&ipo=images");
   background-position: top;
   background-size: cover;
 }
@@ -284,6 +294,7 @@ header {
 
 header a {
   color: var(--light);
+  
 }
 header nav {
   margin: 7px 0;
@@ -295,6 +306,7 @@ header nav ul {
   justify-content: space-between;
   align-items: right;
   list-style: none;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul :hover {
