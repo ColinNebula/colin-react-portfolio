@@ -66,7 +66,7 @@ function Portfolio(){
             name: "Shop Shop",
             id: "ShopShop-Img-Element",
             description: "MERN Stack, JavaScript, HTML, CSS",
-            link:"https://colinnebula.github.io/C-3-Password-Generator/",
+            link:"https://agile-citadel-05491.herokuapp.com/",
             github:"https://github.com/ColinNebula/shop-shop"
         },
     ])
