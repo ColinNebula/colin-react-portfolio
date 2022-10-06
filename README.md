@@ -1,8 +1,6 @@
 # Colin-React Portfolio
-
-This project was bootstrapped with [Create React App]
 ## Description
-This Webpage project was created using the react app to display my newly acquired skills as a full stack web Developer. React is a JavaScript User Interface library created by facebook.
+This Web page project was created using the react app to display my newly acquired skills as a full stack web Developer. React is a JavaScript User Interface library created by facebook.
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
