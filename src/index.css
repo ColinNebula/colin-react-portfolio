@@ -113,7 +113,7 @@ footer {
 
 /* image elements section */
 #SquidStore-Img-Element {
-  background-image: url("https://cdn.trinikid.com/528381/uploads/38e5f970-fc24-11eb-b392-4f45852d76ba_800_420.jpeg");
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhypeabout.com%2Fwp-content%2Fuploads%2F2021%2F10%2Fsquid-game-tv-series-3.jpg&f=1&nofb=1&ipt=d7a8410116ed448347373282c10cc0148f8bc1acc0fcf8f231a1322f5d2e191b&ipo=images");
   background-position: top;
   background-size: cover;
 }
@@ -137,6 +137,19 @@ footer {
   background-size: cover;
 }
 
+/* ShopShop image element */
+#ShopShop-Img-Element {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Fsagacity%2Fimage%2Fupload%2Fc_crop%2Ch_2832%2Cw_4256%2Cx_0%2Cy_0%2Fc_limit%2Cdpr_auto%2Cf_auto%2Cfl_lossy%2Cq_80%2Cw_1080%2Fshutterstock_305219333_x8rizo.jpg&f=1&nofb=1&ipt=28ef8f738f7adc1cdbc2e72c137ff84c9f4452b1c4b3513fefc42aa662862e8a&ipo=images");
+  background-position: top;
+  background-size: cover;
+}
+
+#TributeToBig-Img-Element {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rollingstone.com%2Fwp-content%2Fuploads%2F2018%2F11%2FNotorious-BIG-on-front-stoop-at-moms-house-in-brooklyn.jpg&f=1&nofb=1&ipt=e379af7c58365db6e4b7318fcc3cda10d1c207d2a95754296e6dd63cc6d5c231&ipo=images");
+  background-position: top;
+  background-size: cover;
+}
+
 /* PWABudgetTracker image element */
 #PWABudgetTracker-Img-Element {
   background-image: url("https://strongtowerwealth.com/wp-content/uploads/2017/03/budget.jpg");
@@ -156,22 +169,9 @@ footer {
   background-size: cover;
 }
 
-/* ShopShop image element */
-#ShopShop-Img-Element {
-  background-image: url("https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1");
-  background-position: top;
-  background-size: cover;
-}
-
 /* ApplicationRegistrationForm image element */
 #ApplicationRegistrationForm-Img-Element {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcache.careers360.mobi%2Fmedia%2Fpresets%2F860X430%2Farticle_images%2F2018%2F05%2F14%2FSAT_Registration.jpeg&f=1&nofb=1&ipt=3a9db784a602d8d000a39296afa8713365e55d12490e26a75c3351450efc609b&ipo=images");
-  background-position: top;
-  background-size: cover;
-}
-
-#TributeToBig-Img-Element {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.rollingstone.com%2Fwp-content%2Fuploads%2F2018%2F11%2FNotorious-BIG-on-front-stoop-at-moms-house-in-brooklyn.jpg&f=1&nofb=1&ipt=e379af7c58365db6e4b7318fcc3cda10d1c207d2a95754296e6dd63cc6d5c231&ipo=images");
   background-position: top;
   background-size: cover;
 }
