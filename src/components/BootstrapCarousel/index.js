@@ -1,4 +1,13 @@
 import React from 'react'
+import {  
+	FaGithub, 
+	FaHtml5, 
+	FaCss3Alt, 
+	FaJsSquare, 
+	FaNode, FaReact, 
+	FaNpm, 
+} 
+from "react-icons/fa";
 
 import { Carousel } from "react-bootstrap"
 export default function BootstrapCarousel() {
@@ -13,7 +22,7 @@ export default function BootstrapCarousel() {
       />
       <Carousel.Caption>
         <h3>Squid Store Project</h3>
-        <p>Final Project done using the MERN Stack. This project was a successful team collaboration project with other developers.</p>
+        <p>Final Project done using the MERN Stack. A team collaboration <FaHtml5/>HTML, <FaGithub/>Git, <FaNpm/>NPM, <FaReact/>React, <FaCss3Alt/>CSS, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -26,7 +35,7 @@ export default function BootstrapCarousel() {
 
       <Carousel.Caption>
         <h3>Enviro Dashboard</h3>
-        <p>A group collaboration project. An attempt at global warming awareness.</p>
+        <p>Team collaboration project. Global warming awareness. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, <FaNode/>Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv</p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -39,7 +48,7 @@ export default function BootstrapCarousel() {
   
       <Carousel.Caption>
         <h3>Budget Tracker</h3>
-        <p>Track your budget with ease. The PWA Budget Tracker is great. Created using Javascript, CSS, HTML and server side APIs. </p>
+        <p>Track your budget with ease. The PWA Budget Tracker is great. <FaJsSquare/>Javascript, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaHtml5/>HTML and server side APIs. </p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -51,7 +60,7 @@ export default function BootstrapCarousel() {
       />
       <Carousel.Caption>
         <h3>Shop Shop</h3>
-        <p>Shop Shop is a MERN stack. HTML, CSS Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
+        <p>Shop Shop is a MERN stack. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -63,7 +72,7 @@ export default function BootstrapCarousel() {
       />
       <Carousel.Caption>
         <h3>Password Generator</h3>
-        <p>The Password Generator is a small app which generates a password quickly. It was created using Javascript, HTML and CSS.</p>
+        <p>The Password Generator is a small app which generates a password quickly. <FaJsSquare/>Javascript, <FaHtml5/>HTML, <FaGithub/>Git, <FaCss3Alt/>CSS.</p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -76,7 +85,7 @@ export default function BootstrapCarousel() {
   
       <Carousel.Caption>
         <h3>Tribute To B.I.G</h3>
-        <p>The Notorious B.I.G chillin. The best rapper dead or alive. The Winner all day. Created using HTML, CSS </p>
+        <p>The Notorious B.I.G chillin. Best rapper dead or alive. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>

@@ -26,7 +26,7 @@ function Resume() {
                 </h2>
                 <h4>Full Stack Developer</h4>
                 <p>
-                   <FaHtml5/>HTML | <FaCss3Alt/>CSS | <FaJsSquare/>JavaScript | AJAX | <FaBootstrap/>Bootstrap | Rest | MYSQL | NodeJs | NoSQL | React | MERN | 
+                   <FaHtml5/>HTML | <FaCss3Alt/>CSS | <FaJsSquare/>JavaScript | AJAX | <FaBootstrap/>Bootstrap | Rest | MYSQL | NodeJs | NoSQL | <FaReact/>React | MERN | 
                    MongoDB | SQL | JQuery | <FaGithub/>Git | Responsive Design | DOM | Progressive Web Applications (PWA) | 
                    <FaNode/>Node.js | Express.js | Object Relational Mapping(ORM) | <FaReact/>React | Redux | Model-View-Controller (MVC) | IndexedDB | <FaNpm/>NPM
 
