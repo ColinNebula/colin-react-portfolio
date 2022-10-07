@@ -1,4 +1,4 @@
-# Colin-React Portfolio
+# Colin Nebula React Portfolio
 ## Description
 This Web page project was created using the react app to display my newly acquired skills as a full stack web Developer. React is a JavaScript User Interface library created by facebook.
 ## User Story
