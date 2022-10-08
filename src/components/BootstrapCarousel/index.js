@@ -21,8 +21,8 @@ export default function BootstrapCarousel() {
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>Squid Store Project</h3>
-        <p>Final Project done using the MERN Stack. A team collaboration <FaHtml5/>HTML, <FaGithub/>Git, <FaNpm/>NPM, <FaReact/>React, <FaCss3Alt/>CSS, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
+        <h3>The Squid Store</h3>
+        <p>Final Project done using the MERN Stack E-commerce. A team collaboration <FaHtml5/>HTML, <FaGithub/>Git, <FaNpm/>NPM, <FaReact/>React, <FaCss3Alt/>CSS, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>
     </Carousel.Item>
 
@@ -60,7 +60,7 @@ export default function BootstrapCarousel() {
       />
       <Carousel.Caption>
         <h3>Shop Shop</h3>
-        <p>Shop Shop is a MERN stack. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
+        <p>Shop Shop is a MERN stack E-commerce. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>
     </Carousel.Item>
 

@@ -10,7 +10,7 @@ function Footer() {
                                 <FaGithub />
                             </li>
                         </a>
-                        <a href="https://www.linkedin.com/feed/" target="blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/colin-nebula-07176022/" target="blank" rel="noopener noreferrer">
                             <li className="logo">
                                 <FaLinkedin />
                             </li>
@@ -21,7 +21,12 @@ function Footer() {
                             </li>
                         </a>
                     
-                        &copy; 2022 Colin Nebula, Inc.
+                        
+                        <div>
+                        <a href="/home">Home</a>
+                        <br/>
+                        &copy; 2022 colinnebula@hotmail.com.
+                        </div>
                 </footer>
             </div>
         );

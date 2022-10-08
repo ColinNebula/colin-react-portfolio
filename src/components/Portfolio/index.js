@@ -9,7 +9,7 @@ function Portfolio(){
         {
             name: 'Squid Store',
             id: 'SquidStore-Img-Element',
-            description: 'JWX, JavaScript, Nodejs, MongoDB, Express, Bcrypt, GraphQL, Stripe',
+            description: 'MERN Stack E-commerce, JWX, JavaScript, Nodejs, MongoDB, Express, Bcrypt, GraphQL, Stripe',
             link: 'https://thesquidstore.herokuapp.com/',
             github:"https://github.com/TPhondeth/the-squid-store"
         },
@@ -43,13 +43,6 @@ function Portfolio(){
 
         },
         {
-            name: "Partsmart auto parts Inc.",
-            id: "PartsmartAutoParts-Img-Element",
-            description: "JavaScript, HTML, CSS",
-            link:"https://colinnebula.github.io/partsmart-auto-parts/",
-            github:"https://github.com/ColinNebula/colin-note-taker"
-        },
-        {
             name: "Password Generator",
             id: "PasswordGenerator-Img-Element",
             description: "JavaScript, HTML, CSS",
@@ -59,7 +52,7 @@ function Portfolio(){
         {
             name: "Shop Shop",
             id: "ShopShop-Img-Element",
-            description: "MERN Stack, JavaScript, HTML, CSS",
+            description: "MERN Stack E-commerce, JavaScript, HTML, CSS",
             link:"https://agile-citadel-05491.herokuapp.com/",
             github:"https://github.com/ColinNebula/shop-shop"
         },
@@ -76,6 +69,13 @@ function Portfolio(){
             description: "HTML, CSS",
             link:"https://colinnebula.github.io/tribute-to-big/",
             github:"https://github.com/ColinNebula/shop-shop"
+        },
+        {
+            name: "Partsmart auto parts Inc.",
+            id: "PartsmartAutoParts-Img-Element",
+            description: "JavaScript, HTML, CSS",
+            link:"https://colinnebula.github.io/partsmart-auto-parts/",
+            github:"https://github.com/ColinNebula/colin-note-taker"
         },
     ])
 

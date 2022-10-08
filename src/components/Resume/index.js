@@ -26,14 +26,14 @@ function Resume() {
                 </h2>
                 <h4>Full Stack Developer</h4>
                 <p>
-                   <FaHtml5/>HTML | <FaCss3Alt/>CSS | <FaJsSquare/>JavaScript | AJAX | <FaBootstrap/>Bootstrap | Rest | MYSQL | NodeJs | NoSQL | <FaReact/>React | MERN | 
+                   <FaHtml5/>HTML | <FaCss3Alt/>CSS | <FaJsSquare/>JavaScript | AJAX | <FaBootstrap/>Bootstrap | Rest  | MYSQL | NoSQL | <FaReact/>React | MERN | 
                    MongoDB | SQL | JQuery | <FaGithub/>Git | Responsive Design | DOM | Progressive Web Applications (PWA) | 
-                   <FaNode/>Node.js | Express.js | Object Relational Mapping(ORM) | <FaReact/>React | Redux | Model-View-Controller (MVC) | IndexedDB | <FaNpm/>NPM
+                   <FaNode/>Node.js | Express.js | Object Relational Mapping(ORM) | <FaReact/>React Font end Framework | Redux | Model View Controller(MVC) | IndexedDB | <FaNpm/>NPM
 
                 </p>
 
                 <a href={myResume}download>
-                    <h4>Resume Download<FaCloudDownloadAlt/></h4>
+                    <h4><FaCloudDownloadAlt/>Resume Download</h4>
                 </a>
                 
             </div>
