@@ -23,7 +23,7 @@ function Footer() {
                     
                         
                         <div>
-                        <a href="/home"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a>
+                        <a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a>
                         <br/>
                         &copy; 2022 colinnebula@hotmail.com.
                         </div>
