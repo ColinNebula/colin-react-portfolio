@@ -40,6 +40,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
+  
 
 }
 
@@ -93,6 +94,7 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 /* footer */
@@ -203,6 +205,14 @@ footer {
   flex-wrap: wrap;
 }
 
+.resume-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* card body */
 .card-body{
   display: flex;
@@ -262,6 +272,7 @@ footer {
 .center{
   text-align: center;
 }
+
 
 .btn{
   margin: 10px

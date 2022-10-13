@@ -21,7 +21,7 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
       </h4>
       <br />
       <p>
-        To become industry standard, we learned to utilize a variety of industry tools to add to our skill set. Some of the tools include:
+        To become industry standard, we learned to utilize a variety of industry tools to add to our skill set. Some of these tools include:
         <br />
         <br />
         <svg
@@ -153,6 +153,10 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
         <br />
         <br />
       </p>
+      <h2>
+        Recent Projects
+      </h2>
+      <br />
       <h4>
         Enviro-Dashboard
       </h4>
@@ -356,7 +360,7 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
         download=""
         href="resume.PDF"
       >
-        <h4>
+        <h6>
           <svg
             fill="currentColor"
             height="1em"
@@ -371,7 +375,7 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
             />
           </svg>
           Resume Download
-        </h4>
+        </h6>
       </a>
     </div>
   </section>

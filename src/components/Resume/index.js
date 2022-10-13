@@ -28,7 +28,7 @@ function Resume() {
                 <br />
                 <p>
                     To become industry standard, we learned to utilize a variety of industry tools to add to our skill set.
-                    Some of the tools include:
+                    Some of these tools include:
 
                     <br />
                     <br />
