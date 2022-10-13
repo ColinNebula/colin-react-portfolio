@@ -22,7 +22,7 @@ export default function BootstrapCarousel() {
       />
       <Carousel.Caption>
         <h3>The Squid Store</h3>
-        <p>Final Project done using the MERN Stack E-commerce. A team collaboration <FaHtml5/>HTML, <FaGithub/>Git, <FaNpm/>NPM, <FaReact/>React, <FaCss3Alt/>CSS, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
+        <p>Final Project: MERN Stack E-commerce. A team collaboration <FaHtml5/>HTML, <FaGithub/>Git, <FaNpm/>NPM, <FaReact/>React, <FaCss3Alt/>CSS, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>
     </Carousel.Item>
 

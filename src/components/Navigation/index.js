@@ -7,7 +7,7 @@ function customNav(props) {
         <nav>
             <ul className="flex-row">
                 <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-                    <span onClick={() => setCurrentTab("about")}>About Me</span>
+                    <span onClick={() => setCurrentTab("about")}>About</span>
                 </li>
                 <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
                     <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>

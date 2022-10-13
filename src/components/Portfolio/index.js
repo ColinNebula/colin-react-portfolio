@@ -1,5 +1,10 @@
 import React, {useState} from "react";
 import {Card, Button, Col} from "react-bootstrap";
+import {  
+	FaGithub, 
+	
+} 
+from "react-icons/fa";
 
 
 
@@ -18,7 +23,7 @@ function Portfolio(){
             id: "EnviroDashboard-Img-Element",
             description: "HTML, Bulma, CSS, JavaScript, Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv",
             link: "https://theteam33333.github.io/enviro-dashboard/",
-            github:"https://theteam33333.github.io/enviro-dashboard/" 
+            github:"https://theteam33333.github.io/enviro-dashboard/"
         },
         {
             name: 'Work Day Scheduler',
@@ -47,7 +52,7 @@ function Portfolio(){
             id: "PasswordGenerator-Img-Element",
             description: "JavaScript, HTML, CSS",
             link:"https://colinnebula.github.io/C-3-Password-Generator/",
-            github:"https://github.com/ColinNebula/C-3-Password-Generator"
+            github:"https://github.com/ColinNebula/C-3-Password-Generator",
         },
         {
             name: "Shop Shop",
@@ -58,7 +63,7 @@ function Portfolio(){
         },
         {
             name: "Application Registration Form",
-            id: "applicationregistrationform-Img-Element",
+            id: "ApplicationRegistrationForm-Img-Element",
             description: "HTML, CSS",
             link:"https://colinnebula.github.io/application-registration-page/",
             github:"https://github.com/ColinNebula/application-registration-page"
@@ -68,14 +73,21 @@ function Portfolio(){
             id: "TributeToBig-Img-Element",
             description: "HTML, CSS",
             link:"https://colinnebula.github.io/tribute-to-big/",
-            github:"https://github.com/ColinNebula/shop-shop"
+            github:"https://github.com/ColinNebula/tribute-to-big"
         },
         {
-            name: "Partsmart auto parts Inc.",
-            id: "PartsmartAutoParts-Img-Element",
-            description: "JavaScript, HTML, CSS",
-            link:"https://colinnebula.github.io/partsmart-auto-parts/",
-            github:"https://github.com/ColinNebula/colin-note-taker"
+            name: "Taskinator",
+            id: "Taskinator-Img-Element",
+            description: "Front-end Development: JavaScript, HTML, CSS, DOM",
+            link:"https://colinnebula.github.io/taskinator/",
+            github:"https://github.com/ColinNebula/taskinator/tree/main",
+        },
+        {
+            name: "Taskmaster Pro",
+            id: "TaskmasterPro-Img-Element",
+            description: "Front-end Development: JavaScript, HTML, CSS, DOM",
+            link:"https://colinnebula.github.io/taskmaster-pro/",
+            github:"https://github.com/ColinNebula/taskmaster-pro/tree/main",
         },
     ])
 
@@ -99,7 +111,7 @@ function Portfolio(){
                         </Col>
                         <div>
                         <Button class="primary" href={example.link}>{example.name}</Button>
-                        <a href={example.github} className="github-link">
+                        <a href={example.github} className="github-link"><FaGithub/>
                         </a>
                         </div>
                     </Card.Body>

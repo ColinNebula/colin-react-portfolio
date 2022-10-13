@@ -157,8 +157,8 @@ footer {
   background-size: cover;
 }
 
-#PartsmartAutoParts-Img-Element {
-  background-image: url("https://autodir.ca/datas/google-photo/2872aed4365d15b78f0771b2f9c83ee8-Partsmart-Auto-Parts-Richmond-Hill-ON-Canada-AutoDir.jpg");
+#Taskinator-Img-Element {
+  background-image: url("https://visme.co/blog/wp-content/uploads/2020/04/Header-27.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -171,10 +171,17 @@ footer {
 
 /* ApplicationRegistrationForm image element */
 #ApplicationRegistrationForm-Img-Element {
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcache.careers360.mobi%2Fmedia%2Fpresets%2F860X430%2Farticle_images%2F2018%2F05%2F14%2FSAT_Registration.jpeg&f=1&nofb=1&ipt=3a9db784a602d8d000a39296afa8713365e55d12490e26a75c3351450efc609b&ipo=images");
+  background-image: url("https://www.crowsnesthighschool.ca/uploads/4348/registeryyourcharity.jpg");
   background-position: top;
   background-size: cover;
 }
+
+#TaskmasterPro-Img-Element {
+  background-image: url("https://image.shutterstock.com/image-vector/big-task-word-small-people-260nw-1429801826.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
 
 .card{
   flex: 40%;
@@ -298,6 +305,10 @@ header a {
 }
 header nav {
   margin: 7px 0;
+}
+
+header h2 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul {
