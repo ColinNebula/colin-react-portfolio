@@ -36,7 +36,10 @@ function Resume() {
                    MongoDB | SQL | JQuery | <FaGithub/>Git | Responsive Design | DOM | Progressive Web Applications (PWA) | 
                    <FaNode/>Node.js | Express.js | Object Relational Mapping(ORM) | <FaReact/>React Font end Framework | Redux | Model View Controller(MVC) | IndexedDB | <FaNpm/>NPM
 
+
                    <br />
+                   <br />
+                   <h2>Recent Projects</h2>
                    <br />
                    <h4>Enviro-Dashboard</h4>
                    Working and collaborating with peers online through Zoom. 
@@ -72,7 +75,7 @@ function Resume() {
                 
 
                 <a href={myResume}download>
-                    <h4><FaCloudDownloadAlt/>Resume Download</h4>
+                    <h6><FaCloudDownloadAlt/>Resume Download</h6>
                 </a>
                 
             </div>

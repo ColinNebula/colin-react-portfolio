@@ -23,7 +23,7 @@ function Footer() {
                     
                         
                         <div>
-                        //<a href={"#portfolio"}>Portfolio</a>
+                        
         
                         <a href="/"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a>
                         <br/>
