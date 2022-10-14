@@ -35,7 +35,7 @@ function Portfolio(){
         {
             name: "Regex Tutorial",
             id: "RegexTutorial-Img-Element",
-            description: "HTML",
+            description: "Tutorial: HTML, GitHub Gist",
             link: 'https://gist.github.com/ColinNebula',
             github: 'https://github.com/ColinNebula/colin-regex-tutorial'
         },
@@ -89,6 +89,7 @@ function Portfolio(){
             link:"https://colinnebula.github.io/taskmaster-pro/",
             github:"https://github.com/ColinNebula/taskmaster-pro/tree/main",
         },
+        
     ])
 
     return(
