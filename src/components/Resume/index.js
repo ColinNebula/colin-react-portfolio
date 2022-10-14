@@ -50,7 +50,7 @@ function Resume() {
                    <FaHtml5/>HTML, Bulma, <FaCss3Alt/>CSS, <FaJsSquare/>JavaScript, <FaNode/>Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv
                    <br />
                    <a href={"https://theteam33333.github.io/enviro-dashboard/"}>
-                        <h6>Envor-Dashboard</h6>
+                        <h6>Enviro-Dashboard</h6>
                         <a href="https://github.com/theteam33333/enviro-dashboard/"><i class="<FaGithub/>" aria-hidden="true"></i>&nbsp;GitHub</a>
                         <FaGithub/>
                    </a>

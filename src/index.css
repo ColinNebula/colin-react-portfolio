@@ -456,6 +456,7 @@ nav  li {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+  padding: 0 20px;
 }
 
 .px-1 {
