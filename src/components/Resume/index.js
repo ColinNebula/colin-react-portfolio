@@ -47,7 +47,9 @@ function Resume() {
                    Create an MVP within limited time constraints to meet deadlines.
                    Utilizing the GitHub workflow.
                    <br />
-                   <FaHtml5/>HTML, Bulma, <FaCss3Alt/>CSS, <FaJsSquare/>JavaScript, <FaNode/>Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv
+                   <br />
+                   <h4> Tools and technologies used:</h4>
+                   <FaHtml5/>HTML, | Bulma, <FaCss3Alt/>CSS, | <FaJsSquare/>JavaScript, | <FaNode/>Node.js, | MySQL, | Handlebars, | Express, | Bcrypt, | Dotenv
                    <br />
                    <a href={"https://theteam33333.github.io/enviro-dashboard/"}>
                         <h6>Enviro-Dashboard</h6>
@@ -63,7 +65,9 @@ function Resume() {
                    Conceptualizing the project together as a team. 
                    Create a web application while utilizing GitHub to save different versions of the project.
                    <br />
-                   <FaHtml5/>HTML, <FaCss3Alt/>CSS, MERN Stack E-commerce, JWX, <FaJsSquare/>JavaScript, <FaNode/>Nodejs, MongoDB, Express, Bcrypt, GraphQL, Stripe, <FaNpm/>NPM
+                   <br />
+                   <h4> Tools and technologies used:</h4>
+                   <FaHtml5/>HTML, | <FaCss3Alt/>CSS, | MERN Stack E-commerce, | JWX, <FaJsSquare/>JavaScript, | <FaNode/>Nodejs, | MongoDB, | Express, | Bcrypt, | GraphQL, | Stripe, | <FaNpm/>NPM
                 <br />
                    
                    <a href={'https://thesquidstore.herokuapp.com/'}>
