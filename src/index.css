@@ -185,6 +185,12 @@ footer {
   background-size: cover;
 }
 
+#ModelViewController-Img-Element {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSVqVkXRONnU%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=0e9552733a53ff30c48f744fc32c3b238a97362eb87a469b9d1d8ff28633e4f9&ipo=images");
+  background-position: top;
+  background-size: cover;
+}
+
 
 .card{
   flex: 40%;
