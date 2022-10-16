@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/colin-react-portfolio/static/css/main.4b0af66f.css",
-    "main.js": "/colin-react-portfolio/static/js/main.88fc1a11.js",
+    "main.css": "/colin-react-portfolio/static/css/main.0a6a81bf.css",
+    "main.js": "/colin-react-portfolio/static/js/main.568d0fed.js",
     "static/media/c-nebula.jpg": "/colin-react-portfolio/static/media/c-nebula.dade2873e6fd7da3839c.jpg",
     "static/media/resume.PDF": "/colin-react-portfolio/static/media/resume.e9b4564519ef9f15dbd8.PDF",
     "index.html": "/colin-react-portfolio/index.html",
-    "main.4b0af66f.css.map": "/colin-react-portfolio/static/css/main.4b0af66f.css.map",
-    "main.88fc1a11.js.map": "/colin-react-portfolio/static/js/main.88fc1a11.js.map"
+    "main.0a6a81bf.css.map": "/colin-react-portfolio/static/css/main.0a6a81bf.css.map",
+    "main.568d0fed.js.map": "/colin-react-portfolio/static/js/main.568d0fed.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b0af66f.css",
-    "static/js/main.88fc1a11.js"
+    "static/css/main.0a6a81bf.css",
+    "static/js/main.568d0fed.js"
   ]
 }
