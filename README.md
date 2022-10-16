@@ -47,12 +47,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-## License
-This application is covered by [MIT](https://opensource.org/licenses/MIT) license.
-## Author 
-Colin Nebula
-
 ## Acceptance Criteria
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
@@ -79,3 +73,8 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+## License
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://shields.io)
+## Author 
+Colin Nebula
