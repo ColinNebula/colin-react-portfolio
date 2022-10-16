@@ -7,7 +7,7 @@ function About() {
   return (
       <section className="my-5" >
           <h1 id="about">Hi, my name is 
-          <br/>
+      
           Colin Nebula</h1>
           <h3> Full Stack Web Developer</h3>
           <div className="image-box">
