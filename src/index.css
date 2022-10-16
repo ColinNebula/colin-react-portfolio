@@ -141,7 +141,7 @@ footer {
 }
 
 /* ShopShop image element */
-#ShopShop-Img-Element {
+#TheReduxStore-Img-Element {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Fsagacity%2Fimage%2Fupload%2Fc_crop%2Ch_2832%2Cw_4256%2Cx_0%2Cy_0%2Fc_limit%2Cdpr_auto%2Cf_auto%2Cfl_lossy%2Cq_80%2Cw_1080%2Fshutterstock_305219333_x8rizo.jpg&f=1&nofb=1&ipt=28ef8f738f7adc1cdbc2e72c137ff84c9f4452b1c4b3513fefc42aa662862e8a&ipo=images");
   background-position: top;
   background-size: cover;

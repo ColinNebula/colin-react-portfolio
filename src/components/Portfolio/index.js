@@ -55,11 +55,11 @@ function Portfolio(){
             github:"https://github.com/ColinNebula/C-3-Password-Generator",
         },
         {
-            name: "Shop Shop",
-            id: "ShopShop-Img-Element",
+            name: "The Redux Store",
+            id: "TheReduxStore-Img-Element",
             description: "MERN Stack E-commerce, JavaScript, HTML, CSS",
             link:"https://agile-citadel-05491.herokuapp.com/",
-            github:"https://github.com/ColinNebula/shop-shop"
+            github:"https://github.com/ColinNebula/colin-redux-store/tree/main"
         },
         {
             name: "Application Registration Form",
