@@ -26,20 +26,6 @@ function Portfolio() {
             github: "https://github.com/theteam33333/enviro-dashboard/"
         },
         {
-            name: 'Work Day Scheduler',
-            id: 'WorkDayScheduler-Img-Element',
-            description: 'JavaScript, CSS, HTML, Server Side APIs',
-            link: 'https://colinnebula.github.io/work-day-scheduler/',
-            github: 'https://github.com/ColinNebula/work-day-scheduler'
-        },
-        {
-            name: "Regex Tutorial",
-            id: "RegexTutorial-Img-Element",
-            description: "Tutorial: HTML, GitHub Gist",
-            link: 'https://gist.github.com/ColinNebula',
-            github: 'https://github.com/ColinNebula/colin-regex-tutorial'
-        },
-        {
             name: "PWA Budget Tracker",
             id: "PWABudgetTracker-Img-Element",
             description: "HTML, JavaScript, CSS, Bootstrap, JQuery",
@@ -62,6 +48,13 @@ function Portfolio() {
             github: "https://github.com/ColinNebula/colin-redux-store/tree/main"
         },
         {
+            name: "Model View Controller",
+            id: "ModelViewController-Img-Element",
+            description: "Front-end Development: JavaScript, HTML, CSS, Jest, DotEnv, Sequelize, MySQL, Express, Express Handlebars",
+            link: "https://protected-fjord-97128.herokuapp.com/",
+            github: "https://github.com/ColinNebula/colin-model-view-controller/tree/main",
+        },
+        {
             name: "Application Registration Form",
             id: "ApplicationRegistrationForm-Img-Element",
             description: "HTML, CSS",
@@ -74,6 +67,20 @@ function Portfolio() {
             description: "HTML, CSS",
             link: "https://colinnebula.github.io/tribute-to-big/",
             github: "https://github.com/ColinNebula/tribute-to-big"
+        },
+        {
+            name: "Regex Tutorial",
+            id: "RegexTutorial-Img-Element",
+            description: "Tutorial: HTML, GitHub Gist",
+            link: 'https://gist.github.com/ColinNebula',
+            github: 'https://github.com/ColinNebula/colin-regex-tutorial'
+        },
+        {
+            name: 'Work Day Scheduler',
+            id: 'WorkDayScheduler-Img-Element',
+            description: 'JavaScript, CSS, HTML, Server Side APIs',
+            link: 'https://colinnebula.github.io/work-day-scheduler/',
+            github: 'https://github.com/ColinNebula/work-day-scheduler'
         },
         {
             name: "Taskinator",
@@ -89,13 +96,7 @@ function Portfolio() {
             link: "https://colinnebula.github.io/taskmaster-pro/",
             github: "https://github.com/ColinNebula/taskmaster-pro/tree/main",
         },
-        {
-            name: "Model View Controller",
-            id: "ModelViewController-Img-Element",
-            description: "Front-end Development: JavaScript, HTML, CSS, Jest, DotEnv, Sequelize, MySQL, Express, Express Handlebars",
-            link: "https://protected-fjord-97128.herokuapp.com/",
-            github: "https://github.com/ColinNebula/colin-model-view-controller/tree/main",
-        },
+        
 
     ])
 
