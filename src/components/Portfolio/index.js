@@ -23,7 +23,7 @@ function Portfolio() {
             id: "EnviroDashboard-Img-Element",
             description: "HTML, Bulma, CSS, JavaScript, Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv",
             link: "https://theteam33333.github.io/enviro-dashboard/",
-            github: "https://theteam33333.github.io/enviro-dashboard/"
+            github: "https://github.com/theteam33333/enviro-dashboard/"
         },
         {
             name: 'Work Day Scheduler',
