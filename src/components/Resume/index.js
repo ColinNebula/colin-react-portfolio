@@ -80,7 +80,7 @@ function Resume() {
                 <br />
 
                 <div>
-                    <Button class="primary" href={myResume}>{myResume.name} <FaCloudDownloadAlt/> Resume</Button>
+                    <Button class="primary" href={myResume}>{myResume.name} <FaCloudDownloadAlt /> Resume</Button>
                     <a href={myResume} download>
                     </a>
                 </div>
