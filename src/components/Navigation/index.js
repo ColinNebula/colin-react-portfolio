@@ -13,7 +13,7 @@ function customNav(props) {
                     <span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
                 </li>
 
-                
+
                 <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
                     <span onClick={() => setCurrentTab("resume")}>Resume</span>
                 </li>
@@ -21,7 +21,7 @@ function customNav(props) {
         </nav>
     );
 
-    
+
 }
 
 export default customNav;

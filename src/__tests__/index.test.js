@@ -2,17 +2,17 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Nav from '../components/Nav';
+import Navigation from '../components/Navigation';
 
 afterEach(cleanup);
 
-describe('Nav component', () => {
+describe('Navigation component', () => {
   it('renders', () => {
-    render(<Nav />);
+    render(<Navigation />);
   });
 
   it('matches snapshot', () => {
-    const { asFragment } = render(<Nav />);
+    const { asFragment } = render(<Navigation />);
     
     expect(asFragment()).toMatchSnapshot();
   });
@@ -20,15 +20,15 @@ describe('Nav component', () => {
 
 describe('emoji is visible', () => {
   it('inserts emoji into the h2', () => {
-  const { getByLabelText } = render(<Nav />);
+  const { getByLabelText } = render(<Navigation />);
 
-  expect(getByLabelText('camera')).toHaveTextContent('📸');
+  expect( getByLabelText('camera')).toHaveTextContent('📸');
   });
-})  
+})   
 
 describe('links are visible', () => {
   it('inserts text into the links', () => {
-    const { getByTestId } = render(<Nav />);
+    const { getByTestId } = render(<Navigation />);
 
     expect(getByTestId('link')).toHaveTextContent('Colin Nebula!');
     expect(getByTestId('about')).toHaveTextContent('About me');
