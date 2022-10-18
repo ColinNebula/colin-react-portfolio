@@ -27,7 +27,8 @@ function Footer() {
         
                         <a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;Home</a>
                         <br/>
-                        &copy; 2022 colinnebula@hotmail.com
+                        
+                        &copy; 2022 <a href="mailto:colinnebula@gmail.com">colinnebula@gmail.com</a>
                         </div>
                 </footer>
             </div>

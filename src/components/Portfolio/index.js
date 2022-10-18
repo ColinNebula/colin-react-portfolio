@@ -96,7 +96,7 @@ function Portfolio() {
             link: "https://colinnebula.github.io/taskmaster-pro/",
             github: "https://github.com/ColinNebula/taskmaster-pro/tree/main",
         },
-        
+
 
     ])
 
