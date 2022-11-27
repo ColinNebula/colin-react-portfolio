@@ -13,7 +13,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Project URL deployed to Github Pages
 https://colinnebula.github.io/colin-react-portfolio/
-## Project Github Repository
+## Project GitHub Repository
 https://github.com/ColinNebula/colin-react-portfolio/tree/main
 ## Project Screenshot
 ![Project-Screenshot](https://user-images.githubusercontent.com/57843842/141238044-cd1a4687-8a45-4fd4-bb39-b6f8969077b1.jpg)

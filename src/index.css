@@ -110,6 +110,11 @@ footer {
       #afb1b3);
 }
 
+.carousel-item {
+  height: 33rem;
+
+}
+
 /* image elements section */
 #TheSquidStore-Img-Element {
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhypeabout.com%2Fwp-content%2Fuploads%2F2021%2F10%2Fsquid-game-tv-series-3.jpg&f=1&nofb=1&ipt=d7a8410116ed448347373282c10cc0148f8bc1acc0fcf8f231a1322f5d2e191b&ipo=images");
@@ -296,7 +301,7 @@ footer {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* header */
@@ -306,13 +311,16 @@ header {
       #afb1b3);
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   padding: 0.5rem;
   text-align: center;
   width: 100%;
   /* border-bottom: 2px solid #0d3b58; */
-  position: sticky;
-  top: 0;
+  
 
 }
 

@@ -31,7 +31,7 @@ describe('links are visible', () => {
     const { getByTestId } = render(<Navigation />);
 
     expect(getByTestId('link')).toHaveTextContent('Colin Nebula!');
-    expect(getByTestId('about')).toHaveTextContent('About me');
+    expect(getByTestId('about')).toHaveTextContent('About');
   });
 
 })
