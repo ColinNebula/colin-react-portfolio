@@ -59,7 +59,7 @@ export default function BootstrapCarousel() {
         alt="Fourth slide"
       />
   
-      <Carousel.Caption>
+      <Carousel.Caption className="text-dark">
         <h3>Budget Tracker</h3>
         <p>Track your budget with ease. The PWA Budget Tracker is great. <FaJsSquare/>Javascript, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaHtml5/>HTML and server side APIs. </p>
       </Carousel.Caption>
@@ -71,7 +71,7 @@ export default function BootstrapCarousel() {
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Fsagacity%2Fimage%2Fupload%2Fc_crop%2Ch_2832%2Cw_4256%2Cx_0%2Cy_0%2Fc_limit%2Cdpr_auto%2Cf_auto%2Cfl_lossy%2Cq_80%2Cw_1080%2Fshutterstock_305219333_x8rizo.jpg&f=1&nofb=1&ipt=28ef8f738f7adc1cdbc2e72c137ff84c9f4452b1c4b3513fefc42aa662862e8a&ipo=images"
         alt="Fifth slide"
       />
-      <Carousel.Caption>
+      <Carousel.Caption className="text-dark">
         <h3>The Redux Store</h3>
         <p>Shop Shop is a MERN stack E-commerce. <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, RESTful, Express.js, Handlebars.je, GraphQL.</p>
       </Carousel.Caption>

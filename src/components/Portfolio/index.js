@@ -106,9 +106,9 @@ function Portfolio() {
                 Projects
             </h2>
             <section className="my-3" >
-                <div className="portfolio-div">
+                <div className="overflow portfolio-div">
                     {project.map((example, i) => (
-                        <Card key={example.name} id={example.id} className="ProjectCard">
+                        <Card key={example.name} id={example.id} className="ProjectCard" style={{ color: "#000"}}>
                             <Col className="img-col">
                                 <div className="img-class" ></div>
                             </Col>

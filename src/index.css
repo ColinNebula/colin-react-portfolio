@@ -4,7 +4,7 @@
 
 main {
   background: linear-gradient(90deg,
-      #f1fafe,
+      #0b0b0b,
       #ff312e);
   padding-bottom: 55px;
 
@@ -56,15 +56,18 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color: white;
 }
 
 h2 {
   font-size: 2rem;
   padding: 0 20px;
+  color:white;
 }
 
 h3 {
   font-size: 1.75rem;
+  color: white;
 }
 
 h4 {
@@ -82,11 +85,14 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  color: white;
 }
 
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  
+  padding: 10px;
 }
 
 a {
@@ -111,7 +117,7 @@ footer {
 }
 
 .carousel-item {
-  height: 33rem;
+  height: 30rem;
 
 }
 
@@ -205,15 +211,26 @@ footer {
   align-items: center;
 }
 
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+  
+}
+
 .img-class {
   height: 50px;
   width: 50px;
+  transform: scale(1);
+	transition:transform 0.6s ease;
 }
 
 .portfolio-div {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfolio-div {
+  overflow: hidden;
 }
 
 .resume-div {
@@ -239,6 +256,11 @@ footer {
   padding-top: 15px;
   height: 300px;
   flex: 10 15;
+}
+
+
+.img-class:hover {
+  transform:scale(1.1);
 }
 
 #contact-section {
@@ -307,8 +329,8 @@ a:hover {
 /* header */
 header {
   background: linear-gradient(90deg,
-      #3b3c3d,
-      #afb1b3);
+      #2e2f30,
+      #7f8182);
 
   display: flex;
   flex-wrap: wrap;
@@ -331,6 +353,7 @@ header a {
 
 header nav {
   margin: 7px 0;
+  color: white;
 }
 
 header h2 {
@@ -340,6 +363,7 @@ header h2 {
 
 header p {
   padding: 0 20px;
+  color: white;
 }
 
 header nav ul {
