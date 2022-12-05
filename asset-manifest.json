@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/colin-react-portfolio/static/css/main.920f904c.css",
-    "main.js": "/colin-react-portfolio/static/js/main.ec515fb8.js",
+    "main.css": "/colin-react-portfolio/static/css/main.16dc9995.css",
+    "main.js": "/colin-react-portfolio/static/js/main.c4a05628.js",
     "static/media/c-nebula.jpg": "/colin-react-portfolio/static/media/c-nebula.dade2873e6fd7da3839c.jpg",
-    "static/media/resume.PDF": "/colin-react-portfolio/static/media/resume.e9b4564519ef9f15dbd8.PDF",
+    "static/media/resume.PDF": "/colin-react-portfolio/static/media/resume.6302bed9b47a3fee4aca.PDF",
     "index.html": "/colin-react-portfolio/index.html",
-    "main.920f904c.css.map": "/colin-react-portfolio/static/css/main.920f904c.css.map",
-    "main.ec515fb8.js.map": "/colin-react-portfolio/static/js/main.ec515fb8.js.map"
+    "main.16dc9995.css.map": "/colin-react-portfolio/static/css/main.16dc9995.css.map",
+    "main.c4a05628.js.map": "/colin-react-portfolio/static/js/main.c4a05628.js.map"
   },
   "entrypoints": [
-    "static/css/main.920f904c.css",
-    "static/js/main.ec515fb8.js"
+    "static/css/main.16dc9995.css",
+    "static/js/main.c4a05628.js"
   ]
 }
