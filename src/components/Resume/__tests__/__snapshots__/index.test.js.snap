@@ -193,10 +193,14 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
               Working and collaborating with peers online through Zoom. Conceptualizing the project together as a team. Create an MVP within limited time constraints to meet deadlines. Utilizing the GitHub workflow.
             </p>
             <br />
-            <p />
-            <h4>
+            <p
+              class="card-text"
+            />
+            <div
+              class="card-title h5"
+            >
                Tools and technologies used:
-            </h4>
+            </div>
             <svg
               fill="currentColor"
               height="1em"
@@ -259,7 +263,6 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
           <div
             class="text-muted card-footer"
           >
-            2 days ago
             <a
               class="btn btn-outline-danger"
               href="https://theteam33333.github.io/enviro-dashboard/"
@@ -315,9 +318,11 @@ exports[`Resume component matches snapshot DOM node structure 1`] = `
           <p
             class="card-text"
           />
-          <h4>
+          <div
+            class="card-title h5"
+          >
              Tools and technologies used:
-          </h4>
+          </div>
           <svg
             fill="currentColor"
             height="1em"
