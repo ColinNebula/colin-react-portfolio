@@ -9,35 +9,46 @@ exports[`About component matches snapshot DOM node structure 1`] = `
       class="row"
     >
       <div
-        class="col"
-        ms="3"
+        class="col-md-6 offset-md-3"
       >
-        <section
-          class="my-5"
-        >
-          <h1
-            id="about"
-          >
-            Hi, my name is Colin Nebula
-          </h1>
-          <h3>
-             Full Stack Web Developer
-          </h3>
-        </section>
         <div
-          class="bg-dark text-light shadow-lg  card"
-          style="width: 40rem;"
+          class="bg-dark text-white card"
+          style="width: 30rem;"
+        >
+          <img
+            alt="Card image"
+            class="card-img rounded"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UqmbTVnNzHJt0VRJ2FQwPwHaD5%26pid%3DApi&f=1&ipt=1e636f784b2a86208c855ce17853192dd34c2464047f8803b8b4ba0aa6e5469f&ipo=images/100px270"
+          />
+          <div
+            class="card-img-overlay"
+          >
+            <div
+              class="text-white card-title h5"
+            >
+               Full Stack Web Developer
+            </div>
+            <h1
+              id="about"
+            >
+              Hi, my name is Colin Nebula
+            </h1>
+          </div>
+        </div>
+        <div
+          class="bg-dark text-light shadow-lg rounded card"
+          style="width: 30rem;"
         >
           <img
             alt="C Nebula"
-            class="card-img-top"
+            class="card-img-top rounded"
             src="c-nebula.jpg"
           />
           <div
             class="card-body"
           >
             <div
-              class="card-title h5"
+              class="card-header"
             >
               Full Stack Developer
             </div>
@@ -46,8 +57,12 @@ exports[`About component matches snapshot DOM node structure 1`] = `
             >
               As a self starter who loves being part of a team as well, I bring discipline and rigour from my years serving the US Military. This, in addition to my numerous diplomas in digital art, technology, animation, and now coding, have helped me reach my present position where I hope to develop websites.
             </p>
+          </div>
+          <div
+            class="card-footer"
+          >
             <button
-              class="mx-2 btn btn-primary"
+              class="mx-2 btn btn-outline-danger"
               type="button"
             >
               <span>

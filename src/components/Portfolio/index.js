@@ -106,7 +106,7 @@ function Portfolio() {
                 Projects
             </h2>
             <section className="my-3" >
-                <div className="overflow portfolio-div">
+                <div className="portfolio-div">
                     {project.map((example, i) => (
                         <Card key={example.name} id={example.id} className="ProjectCard" style={{ color: "#000"}}>
                             <Col className="img-col">
@@ -119,9 +119,9 @@ function Portfolio() {
                                     </Card.Text>
                                 </Col>
                                 <div>
-                                    <Button class="primary" href={example.link}>{example.name}</Button>
+                                    <Button className="primary" href={example.link}>{example.name}</Button>
 
-                                    <Button class="primary" href={example.github}>{example.github.name} <FaGithub /> GitHub</Button>
+                                    <Button className="primary" href={example.github}>{example.github.name} <FaGithub /> GitHub</Button>
                                 </div>
 
                             </Card.Body>

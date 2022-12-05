@@ -46,7 +46,7 @@ export default function BootstrapCarousel() {
         alt="Third slide"
       />
 
-      <Carousel.Caption>
+      <Carousel.Caption className="text-dark">
         <h3>Task Master Pro</h3>
         <p>Front End Development: <FaHtml5/>HTML, <FaCss3Alt/>CSS, <FaGithub/>Git, <FaJsSquare/>Javascript, <FaNode/>Node.js, MySQL, Handlebars, Express, Bcrypt, Dotenv</p>
       </Carousel.Caption>
