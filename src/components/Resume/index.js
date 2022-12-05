@@ -69,7 +69,7 @@ function Resume() {
                         </Card.Body>
                         <Card.Footer className="text-muted">
                             <Button variant="outline-danger" href={"https://theteam33333.github.io/enviro-dashboard/"}>
-                                <h6>Enviro-Dashboard</h6>
+                                Enviro-Dashboard
                             </Button>
 
                             <Button variant="outline-danger" href="https://github.com/theteam33333/enviro-dashboard/"><i class="<FaGithub/>" aria-hidden="true"></i>&nbsp;GitHub
@@ -90,7 +90,7 @@ function Resume() {
                             <Card.Title> Tools and technologies used:</Card.Title>
                             <FaHtml5 />HTML, | <FaCss3Alt />CSS, | MERN Stack E-commerce, | JWX, <FaJsSquare />JavaScript, | <FaNode />Nodejs, | MongoDB, | Express, | Bcrypt, | GraphQL, | Stripe, | <FaNpm />NPM
                         </Card.Text>
-                        <Card.Footer className="text-muted">2 days ago
+                        <Card.Footer className="text-muted">
                             <a href={'https://thesquidstore.herokuapp.com/'}>
                                 <h6>The Squid Store</h6>
                                 <Button variant="outline-danger" href="https://github.com/TPhondeth/the-squid-store"><i className="<FaGithub/>" aria-hidden="true"></i>&nbsp;GitHub</Button>

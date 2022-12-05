@@ -33,7 +33,7 @@ function About() {
                 position where I hope to develop websites.
               </Card.Text>
             <Card.Footer>
-              <Button variant="outline-danger" href={"portfolio"}>Go to portfolio</Button>
+              
             </Card.Footer>
           </Card>
         </Col>

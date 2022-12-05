@@ -13,7 +13,7 @@ exports[`About component matches snapshot DOM node structure 1`] = `
       >
         <div
           class="bg-dark text-white card"
-          style="width: 30rem;"
+          style="width: 24rem;"
         >
           <img
             alt="Card image"
@@ -39,7 +39,7 @@ exports[`About component matches snapshot DOM node structure 1`] = `
         </div>
         <div
           class="bg-dark text-light shadow-lg card"
-          style="width: 30rem;"
+          style="width: 24rem;"
         >
           <img
             alt="C Nebula"
@@ -59,16 +59,7 @@ exports[`About component matches snapshot DOM node structure 1`] = `
           </p>
           <div
             class="card-footer"
-          >
-            <a
-              class="btn btn-outline-danger"
-              href="/portfolio"
-              role="button"
-              tabindex="0"
-            >
-              Go to portfolio
-            </a>
-          </div>
+          />
         </div>
       </div>
     </div>
