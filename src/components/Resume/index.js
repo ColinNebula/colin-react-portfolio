@@ -12,6 +12,7 @@ import {
 }
     from "react-icons/fa";
 import workStation from '../../assets/images/workStation.png';
+import enviroD from '../../assets/images/enviroD.png';
 import { Button, Card, Container, Row, Col, NavDropdown, CardGroup, Modal } from 'react-bootstrap';
 
 
@@ -93,7 +94,7 @@ function Resume() {
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>
                         <Card.Header>Recent Projects</Card.Header>
-                        <Card.Img src="https://images.unsplash.com/photo-1660679983389-50e21b396b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" className="card-image" 
+                        <Card.Img src={enviroD} className="card-image" 
                         alt="Card image" />
                         <Card.Body>
                             <br />
@@ -122,7 +123,8 @@ function Resume() {
                     
                     <br />
                     <h2 class="mid-text"> More Collaboration projects through Zoom and Github. </h2>
-                    <p class="mid-p"> Here is another successful project. 
+                    <p class="mid-p"> Here is another successful project done through collaboration with peers.
+                     From concept to complition. Daily meeting with zoom, and saving our projects with the git workflow.
                     </p>
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>
