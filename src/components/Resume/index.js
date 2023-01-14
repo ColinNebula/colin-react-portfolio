@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import myResume from '../../assets/files/resume.PDF';
 import {
     FaGithub,
@@ -11,25 +11,66 @@ import {
     FaCloudDownloadAlt
 }
     from "react-icons/fa";
-import { Button, Card, Container, Row, Col } from 'react-bootstrap';
+import workStation from '../../assets/images/workStation.png';
+import { Button, Card, Container, Row, Col, NavDropdown, CardGroup, Modal } from 'react-bootstrap';
 
 
 function Resume() {
-
+    const [lgShow, setLgShow] = useState(false);
     return (
         <Container fluid>
+        <h2 class="top-text"> Welcome to Nebula Web Development Resume</h2>
+        <p class="top-p"> My name is Colin Nebula and I am a Web Developer and a computer enthusiast. Thank you for visiting my page.
+        </p>
+        <NavDropdown.Divider />
+
+        <br />
             <Row>
+            <div>
+      <>
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg">
+            Web Development Skills
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+          <FaHtml5 />HTML | <FaCss3Alt />CSS | <FaJsSquare />JavaScript | AJAX | <FaBootstrap />Bootstrap | Rest  | MYSQL | NoSQL | <FaReact />React | MERN |
+          MongoDB | SQL | JQuery | <FaGithub />Git | Responsive Design | DOM | 
+          Progressive Web Applications (PWA) |
+          <FaNode />Node.js | Express.js | Object Relational Mapping(ORM) | 
+          <FaReact />React Font end Framework | Redux | Model View Controller(MVC) | 
+          IndexedDB | <FaNpm />NPM
+
+          </p>
+          <Card.Img src="https://images.unsplash.com/photo-1618171889969-0feeb769fe78?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" className="image" 
+          alt="Card image" />
+        
+        </Modal.Body>
+      </Modal>
+    </>
+        </div>
                 <Col ms={"auto"}>
+
+                <CardGroup>
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>
 
-                        <h1 id="resume">Web Development Resume</h1>
-
-
+                    
+                        
                         <Card.Header>
                             Colin Nebula
 
                         </Card.Header>
+                        <Card.Img variant="top" src={workStation} 
+                        className="card-image" 
+                        alt="Card image"/>
                         <Card.Body>
                         <Card.Title>Full Stack Developer</Card.Title>
                         <br />
@@ -38,18 +79,22 @@ function Resume() {
                             Some of these tools include:
 
                         </Card.Text>
-                        <br />
-                        <Card.Text>
-                            <FaHtml5 />HTML | <FaCss3Alt />CSS | <FaJsSquare />JavaScript | AJAX | <FaBootstrap />Bootstrap | Rest  | MYSQL | NoSQL | <FaReact />React | MERN |
-                            MongoDB | SQL | JQuery | <FaGithub />Git | Responsive Design | DOM | Progressive Web Applications (PWA) |
-                            <FaNode />Node.js | Express.js | Object Relational Mapping(ORM) | <FaReact />React Font end Framework | Redux | Model View Controller(MVC) | IndexedDB | <FaNpm />NPM
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
+                        
+            
                 
+                        
+                        </Card.Body>
+                        <Card.Footer>
+                        <Button variant="outline-danger" onClick={() => setLgShow(true)}>View here</Button>{' '}
+                        </Card.Footer>
+                    </Card>
+
+                   
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>
                         <Card.Header>Recent Projects</Card.Header>
+                        <Card.Img src="https://images.unsplash.com/photo-1660679983389-50e21b396b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" className="card-image" 
+                        alt="Card image" />
                         <Card.Body>
                             <br />
                             <Card.Title>Enviro-Dashboard</Card.Title>
@@ -60,12 +105,7 @@ function Resume() {
                                 Utilizing the GitHub workflow.
                             </Card.Text>
 
-                            <br />
-                            <Card.Text>
-                                <Card.Title> Tools and technologies used:</Card.Title>
-                                <FaHtml5 />HTML, | Bulma, <FaCss3Alt />CSS, | <FaJsSquare />JavaScript, | <FaNode />Node.js, | MySQL, | Handlebars, | Express, | Bcrypt, | Dotenv
-                            </Card.Text>
-                            <br />
+                           
                         </Card.Body>
                         <Card.Footer className="text-muted">
                             <Button variant="outline-danger" href={"https://theteam33333.github.io/enviro-dashboard/"}>
@@ -77,6 +117,13 @@ function Resume() {
                             
                         </Card.Footer>
                     </Card>
+                    
+                    </CardGroup>
+                    
+                    <br />
+                    <h2 class="mid-text"> More Collaboration projects through Zoom and Github. </h2>
+                    <p class="mid-p"> Here is another successful project. 
+                    </p>
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>
                         <Card.Header>The Squid Store</Card.Header>
@@ -103,6 +150,8 @@ function Resume() {
                     </Card>
                 </Col>
             </Row>
+            <br />
+            <NavDropdown.Divider />
         </Container>
     )
 }
