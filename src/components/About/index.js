@@ -1,10 +1,22 @@
 import React from 'react';
 import cNebula from "../../assets/images/c-nebula.jpg";
 import { Button, Card, Container, Col, Row, Image } from 'react-bootstrap';
+import useLocalStorage from 'use-local-storage'
 
 function About() {
-  return (
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+  const switchTheme = () => {
+  const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme)
+  }
+
+    return (
     <Container fluid>
+
+    <div className= "theme-toggle"> 
+    <h2> Light </h2>
+    <i class="fas fa-toggle-on" onClick={(switchTheme)}></i>
+    </div>
       <Row>
         <Col md={{ span: 6, offset: 3 }} className="mb-3">
         
@@ -17,6 +29,7 @@ function About() {
                 Hi, my name is
                 Colin Nebula
               </h1>
+              <time> </time>
               </Card.Text>
           </Card.ImgOverlay>
           </Card>

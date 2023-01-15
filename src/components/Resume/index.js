@@ -42,6 +42,11 @@ function Resume() {
         </Modal.Header>
         <Modal.Body>
           <p>
+          As a full web developer, I have had the opportunity to to learn a variety of tool to add to my skill set.
+          <br />
+          Some of these tools include:
+          <br />
+          <br />
           <FaHtml5 />HTML | <FaCss3Alt />CSS | <FaJsSquare />JavaScript | AJAX | <FaBootstrap />Bootstrap | Rest  | MYSQL | NoSQL | <FaReact />React | MERN |
           MongoDB | SQL | JQuery | <FaGithub />Git | Responsive Design | DOM | 
           Progressive Web Applications (PWA) |
@@ -77,7 +82,6 @@ function Resume() {
                         <br />
                         <Card.Text>
                             To become industry standard, we learned to utilize a variety of industry tools to add to our skill set.
-                            Some of these tools include:
 
                         </Card.Text>
                         
@@ -124,7 +128,9 @@ function Resume() {
                     <br />
                     <h2 class="mid-text"> More Collaboration projects through Zoom and Github. </h2>
                     <p class="mid-p"> Here is another successful project done through collaboration with peers.
-                     From concept to complition. Daily meeting with zoom, and saving our projects with the git workflow.
+                     From concept to completion. 
+                     <br />
+                     Daily meeting with zoom, and utilizing github repository to save versions of our projects through the git workflow.
                     </p>
 
                     <Card className="bg-dark text-white shadow-lg" style={{ color: "#000", width: "auto" }}>

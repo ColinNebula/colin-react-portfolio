@@ -21,6 +21,10 @@ main {
 
 }
 
+[data-theme='dark'] {
+  --background: #000;
+}
+
 
 html,
 body {
@@ -58,7 +62,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  padding: 0 20px;
+  padding: 20px;
   color:white;
 }
 
@@ -224,6 +228,15 @@ footer {
 	padding: 5px;
 }
 
+.theme-toggle i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  text-align: right;
+}
+
 .card {
   flex: 40%;
   width: 50%;
@@ -324,6 +337,7 @@ footer {
 
 .my-project {
   margin-bottom: 0;
+  padding: 10px;
 
 }
 

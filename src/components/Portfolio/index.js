@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Button, Col } from "react-bootstrap";
+import { Card, Button, Col, NavDropdown } from "react-bootstrap";
 import {
     FaGithub,
 
@@ -102,9 +102,14 @@ function Portfolio() {
 
     return (
         <div>
-            <h2 className="my-projects">
-                Projects
-            </h2>
+            
+            <h2 class="top-text">  Projects I have worked on and completed throughout my coding career. </h2>
+                    <p class="top-p"> Here are some of the projects I have worked on as a web developer. 
+                     <br />
+                     Some project done through collaboration with peers.
+                    </p>
+            <NavDropdown.Divider />
+
             <section className="my-3" >
                 <div className="portfolio-div">
                     {project.map((example, i) => (
@@ -129,6 +134,7 @@ function Portfolio() {
                     ))}
                 </div>
             </section>
+            <NavDropdown.Divider />
         </div>
     )
 }
