@@ -13,10 +13,7 @@ function About() {
     return (
     <Container fluid>
 
-    <div className= "theme-toggle"> 
-    <h2> Light </h2>
-    <i class="fas fa-toggle-on" onClick={(switchTheme)}></i>
-    </div>
+    
       <Row>
         <Col md={{ span: 6, offset: 3 }} className="mb-3">
         
