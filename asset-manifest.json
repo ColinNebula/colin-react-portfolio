@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/colin-react-portfolio/static/css/main.e8a57dc3.css",
-    "main.js": "/colin-react-portfolio/static/js/main.690f80cb.js",
+    "main.css": "/colin-react-portfolio/static/css/main.993c8b9c.css",
+    "main.js": "/colin-react-portfolio/static/js/main.ca82006c.js",
     "static/media/workStation.png": "/colin-react-portfolio/static/media/workStation.48601705b46115171f5c.png",
     "static/media/enviroD.png": "/colin-react-portfolio/static/media/enviroD.f051a1bb49a92960917a.png",
     "static/media/c-nebula.jpg": "/colin-react-portfolio/static/media/c-nebula.dade2873e6fd7da3839c.jpg",
     "static/media/resume.PDF": "/colin-react-portfolio/static/media/resume.6302bed9b47a3fee4aca.PDF",
     "index.html": "/colin-react-portfolio/index.html",
-    "main.e8a57dc3.css.map": "/colin-react-portfolio/static/css/main.e8a57dc3.css.map",
-    "main.690f80cb.js.map": "/colin-react-portfolio/static/js/main.690f80cb.js.map"
+    "main.993c8b9c.css.map": "/colin-react-portfolio/static/css/main.993c8b9c.css.map",
+    "main.ca82006c.js.map": "/colin-react-portfolio/static/js/main.ca82006c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8a57dc3.css",
-    "static/js/main.690f80cb.js"
+    "static/css/main.993c8b9c.css",
+    "static/js/main.ca82006c.js"
   ]
 }
