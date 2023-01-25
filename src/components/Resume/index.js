@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import myResume from '../../assets/files/resume.PDF';
+import Tooltip from 'react-bootstrap/Tooltip';
 import {
     FaGithub,
     FaHtml5,
@@ -18,8 +19,18 @@ import { Button, Card, Container, Row, Col, NavDropdown, CardGroup, Modal } from
 
 function Resume() {
     const [lgShow, setLgShow] = useState(false);
+
+    const renderTooltip = (props) => (
+        <Tooltip id="button-tooltip" {...props}>
+          Web development
+        </Tooltip>
+      );
+
     return (
+        
         <Container fluid>
+        
+
         <h2 class="top-text"> Welcome to Nebula Web Development Resume</h2>
         <p class="top-p"> My name is Colin Nebula and I am a Web Developer and a computer enthusiast. Thank you for visiting my page.
         </p>
@@ -27,6 +38,7 @@ function Resume() {
 
         <br />
             <Row>
+            
             <div>
       <>
       <Modal
@@ -90,6 +102,8 @@ function Resume() {
                         
                         </Card.Body>
                         <Card.Footer>
+                        
+    
                         <Button variant="outline-danger" onClick={() => setLgShow(true)}>View here</Button>{' '}
                         </Card.Footer>
                     </Card>
