@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import BootstrapCarousel from './components/BootstrapCarousel';
+import './AppClean.css';
 
 // App
 function App() {
@@ -24,24 +25,17 @@ function App() {
   };
 
   return (
-    
-    <div>
-    <div>
+    <div className="app-container">
+      <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />
       
-				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-        
-			</div>
-
-    <BootstrapCarousel />
-  
-      <div>
-      <main>{renderTab()}</main>
+      <BootstrapCarousel />
+      
+      <main className="main-content">
+        {renderTab()}
+      </main>
+      
+      <Footer />
     </div>
-    <div>
-      <Footer></Footer>
-    </div>
-  </div>
-
   );
 }
 
